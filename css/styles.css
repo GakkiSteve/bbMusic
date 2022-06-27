@@ -1,0 +1,192 @@
+/* title part */
+#title {
+    background-color: #1B2430;
+}
+
+#title .fa-bilibili {
+    /* icon */
+    color: #fff;
+    display: inline-block;
+    margin-left: 1.5%;
+
+}
+
+.navbar .navbar-brand {
+    /* brand name */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 0.5%;
+
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-item .nav-link {
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* title part */
+
+
+/* the second block of the page*/
+.go-premium {
+    text-align: center;
+    height: 41.625em;
+    background-color: #FFC4C4;
+}
+
+.go-premium p {
+    color: #F32424;
+    font-size: 5.25em;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bolder;
+    padding: 10% 20% 3% 20%;
+
+}
+
+.go-premium button {
+    color: #fff;
+    background-color: #F32424;
+}
+
+.go-premium button:hover {
+    background-color: #bb1c1c !important;
+
+}
+
+/*change the font size when the device is mobile*/
+@media (max-width:992px) {
+    .go-premium p {
+        font-size: 4.25em;
+    }
+
+
+}
+
+
+/* the third block of the page*/
+
+.open-web,
+.slide-show {
+    height: 50.625em;
+    background-color: #242F9B;
+
+}
+
+.webplayer-title {
+    text-align: center;
+    padding: 30% 10% 3% 10%;
+    color: #45EBA5;
+    font-size: 4.25em;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bolder;
+
+}
+
+.webplayer-text {
+    text-align: center;
+    color: #45EBA5;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.webplayer-button {
+    position: absolute;
+    margin: auto auto auto 18%;
+}
+
+
+/*when the device is mobile,keep the button inside the area*/
+
+@media (max-width:992px) {
+    .webplayer-button {
+        position: absolute;
+        margin: auto auto auto 25%;
+    }
+}
+
+
+/*when the mouse hover over the button,change button's color*/
+.webplayer-button:hover {
+    background-color: #45EBA5 !important;
+}
+
+.album-image {
+    height: 40%;
+    width: 40%;
+    margin-top: 5%;
+}
+
+
+/*adjust the position of the button*/
+.carousel-inner {
+    padding-top: 20%;
+    text-align: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    margin-top: 30%;
+}
+
+.carousel-item h2 {
+    color: #45EBA5;
+}
+
+
+
+/*the last block,just some hyperlinks*/
+.footer {
+    background-color: #1B2430;
+    height: 21.625em;
+    color: #fff;
+
+}
+
+.footer-links-1 {
+    padding-top: 5%;
+    margin-left: 20%;
+}
+
+.table-1,
+.table-2,
+.table-3 {
+    display: inline;
+}
+
+.bottom-header {
+    font-weight: 100;
+    padding-right: 7.4em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+
+}
+
+.f-links a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ins-icon {
+    margin-right: 1%;
+}
+
+.facebook-icon {
+    margin-left: 1%;
+}
+
+@media (max-width:1512px) {
+    .footer {
+        background-color: #1B2430;
+        height: 45.625em;
+    }
+}
